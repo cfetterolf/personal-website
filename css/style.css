@@ -20,6 +20,11 @@ p > a:hover, p > a:focus {
     color: #404040 !important;
 }
 
+em {
+  font-size: 80%;
+  color: #a6a6a6;
+}
+
 body {
     background-color: rgba(251,249,235, 1.0);
 }
