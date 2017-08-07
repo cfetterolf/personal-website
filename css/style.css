@@ -120,6 +120,14 @@ footer {
     margin-left: 8%;
 }
 
+.stretch {
+  text-align: justify;
+}
+
+.shadow-basic {
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+}
+
 .vert-wrapper {
     height: 100px;
     display:flex;
