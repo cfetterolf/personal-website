@@ -84,28 +84,29 @@
         <!-- About Me -->
         <div class="row" style="padding-left: 15px;" id="aboutMe"><h5 class="semi-bold">About Me</h5></div>
         <hr style="margin-left: 0px; width: 250px; margin-top: 5px;"/>
-        <div class="row margin-top">
-          <div class="col-md-4" style=""><p class="">
-              Hi, my name is Chris Fetterolf.  I study Computer Science and Mathematics at Middlebury College
+        <div class="row margin-top" id="aboutMeText">
+          <div class="col-md-4" style=""><p>
+              Hey, I'm Chris Fetterolf.  I study Computer Science and Mathematics at Middlebury College
               in the scenic Green Mountains of Vermont.  I love software development because it allows me to
               bring my interests, passions, and creativity to life.  The entire development process - taking an
               idea and coding it into existence - is immensely rewarding to me.</p><p>
 
-              As a Computer Science major and Math minor at Middlebury, I take courses pertaining predominantly to my
-              areas of study.  However, my liberal arts education has allowed me to take classes in a wide variety
-              of topics, from the Psychology of Happiness to the Aztec Empire to Sherlock Holmes in the Media.</p>
-
-          </div>
-          <div class="col-md-4" style=""><p class="">
-              I think diversity should be an intrinsic part of any education, and am thankful to have
-              broadened my academic perspective throughout my time at college.</p><p>
-
               I grew up in the San Francisco Bay Area, and had ample time outside of school
               to pursue extracurricular interests that sparked lifelong hobbies.  My passions for surfing, skiing,
               mountain biking, singing, gaming, and basketball were all born in the East Bay.</p>
+
           </div>
-          <div class="col-md-4" style="background-color: transparent; ">
-              <img src="img/portrait.png" style="width: 100%;"/>
+          <div class="col-md-4" style=""><p>
+
+              As a Computer Science major and Math minor at Middlebury, I take courses pertaining predominantly to my
+              areas of study.  However, my liberal arts education has allowed me to take classes in a wide variety
+              of topics, from the Psychology of Happiness to the Aztec Empire to Sherlock Holmes in the Media.
+
+              I think diversity should be an intrinsic part of any education, and am thankful to have
+              broadened my academic perspective throughout my time at college.</p>
+          </div>
+          <div class="col-md-4" id="portrait" style="background-color: transparent;">
+              <img src="img/portrait.png" style="width: 100%;" class="portrait"/>
           </div>
       </div> <!-- ./about me -->
 
@@ -123,13 +124,13 @@
                       <a class="collapsed no-underline" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                         Booz Allen Hamilton
                       </a>
-                      <span class="location">Annapolis JCT, MD</span>
+                      <span class="time">Summer 2017</span>
                     </h5>
                   </div>
                 </div> <!-- ./card-header -->
                 <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
                   <div class="card-block">
-                    <h6 class="title">Software Engineer Intern <em>Summer 2017</em></h6>
+                    <h6 class="title">Software Engineer Intern <span class="location">Annapolis JCT, MD</span></h6>
                     <p>
 
                     </p>
@@ -144,31 +145,36 @@
                     <a class="collapsed no-underline" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
                       Fours iOS App
                     </a>
-                    <span class="location">Middlebury, VT</span>
+                    <span class="time">October 2016 - Present</span>
                   </h5>
                 </div>
                 <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo">
                   <div class="card-block">
-                    <h6 class="title">Founder</h6>
+                    <h6 class="title">Founder<span class="location">Middlebury, VT</span></h6>
+                    <hr style="width: 100%;" />
                     <p>
-                      In my free time at school I created Fours, a free KenKen puzzle generator <a href="https://itunes.apple.com/us/app/fours-unlimited-kenken-puzzles!/id1181549788?mt=8" target="_blank" style="color: #279bbe;">available on the App Store.</a>
+                      In my free time at school I created Fours, a free KenKen puzzle generator <a class="hover-click" href="https://itunes.apple.com/us/app/fours-unlimited-kenken-puzzles!/id1181549788?mt=8" target="_blank" style="color: #279bbe;">available on the App Store.</a>
                       The game allows you to play as many puzzles as you want, generating over 600,000 possible board combinations.</p><p>
 
                       I began the development process knowing nothing about iOS development, and the path from concept to published product taught me
                       invaluable lessons about both software design and myself.  I began the project by researching and inventing my own
                       method of generating unique puzzle boards, then implemented my algorithm in Swift as the core component of the app.
-                      Once the app could generate unique puzzles, I built additonal features around the concept to help the app
-                      become more than just solving puzzles - features such as challenge modes, global leaderboards, and a step-by-step tutorial that
-                      helps teach newbies how to play.</p><p>
+                      I then built additonal features to help the app
+                      become more than just a puzzle generator - features such as challenge modes, global leaderboards, and a step-by-step tutorial that
+                      helps teach newcomers how to play.</p><p>
 
-                      Throughout this process I've learned that nothing is more motivating
-                      than a project that matters to me.  Even though I created Fours simply as a way to play more KenKen puzzles, I hope it
-                      can now become a platform to share my passion for KenKens with others.</p><p>
+                      Throughout this process I've learned that nothing motivates me more
+                      than a captivating project.  Even though I created Fours simply as a way to play more KenKen puzzles, I hope it
+                      can now become a platform to share my passion for KenKens with others.</p>
 
-                      <strong>Technologies Used:</strong>
-                      Swift 3 (Xcode), HTML5 & CSS3 (Bootstrap), JavaScript (jQuery), PHP, Google Firebase (NoSQL)</p><p>
+                      <hr style="width: 100%;" />
 
-                      For more information, check out <a href="http://www.getfoursapp.com" target="_blank" style="color: #279bbe;">www.getfoursapp.com</a></p>
+                      <p><strong>Technologies Used:</strong></p>
+                      <p class="indent">Swift 3 (Xcode), Google Firebase (NoSQL)</p>
+                      <p class="indent">HTML5 & CSS3 (Bootstrap), JavaScript (jQuery), PHP</p>
+
+                      <hr style="width: 100%;" />
+                      <p>For more information, check out <a href="http://www.getfoursapp.com" target="_blank" style="color: #279bbe;">www.getfoursapp.com</a></p>
                   </div>
                 </div>
               </div>
@@ -180,15 +186,16 @@
                     <a class="collapsed no-underline" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
                       ACG Research
                     </a>
-                    <span class="location">Lake Tahoe, CA</span>
+                    <span class="time">Summer 2016</span>
                   </h5>
                 </div>
                 <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
                   <div class="card-block">
-                    <h6 class="title">Software Engineer Intern</h6>
+                    <h6 class="title">Quantitative Analyst<span class="location">Lake Tahoe, CA</span></h6>
                     <p>
-                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
-                  </div>
+                      In the summer of 2016 I worked for ACG Research, a leading analyst firm in the telecommunications industry.
+                      At ACG I was working under
+                    </p>
                 </div>
               </div>
 
@@ -262,6 +269,12 @@
 
 <!-- Include JS -->
 <script src="js/index.js"></script>
+
+<script>
+  // if($( window ).width() < 992) {
+  //   $('.portrait').hide();
+  // }
+</script>
 
 </body>
 </html>

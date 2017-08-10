@@ -1,3 +1,12 @@
+
+/*      GLOBALS       */
+var experience = {};
+
+
+
+
+
+
 // Smooth Scroll on clicking nav items
 $('nav a').click(function () {
   var $href = $(this).attr('href');
@@ -6,3 +15,7 @@ $('nav a').click(function () {
   }, 1000);
   return false;
 });
+
+$( document ).ready() {
+
+}
