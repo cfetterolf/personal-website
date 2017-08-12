@@ -19,6 +19,7 @@
   <script src="https://use.typekit.net/dru0rgp.js"></script>
   <script>try{Typekit.load({ async: true });}catch(e){}</script>
   <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
+  <link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,400,500,600,700" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Fresca" rel="stylesheet">
 
   <!-- To use: font-family: 'Zilla Slab', serif; -->
@@ -132,6 +133,7 @@
                   <div class="card-block">
                     <h6 class="title">Software Engineer Intern <span class="location">Annapolis JCT, MD</span></h6>
                     <p>
+                      During my time at Booz Allen
 
                     </p>
                   </div>
@@ -217,7 +219,7 @@
                   </div>
                 </div>
               </div>
-
+            </div>
           </div> <!-- ./Accordian -->
       </div> <!-- ./Experience -->
 
@@ -241,6 +243,7 @@
 
       </div> <!-- ./container -->
       <div style="width:50%; height: 100%;"></div> <!-- Right margin -->
+    </div>
   </div> <!-- ./Content -->
 
   <!-- Footer -->
@@ -263,17 +266,22 @@
 
 
 
+
+
  <!-- Essential Bootstrap -->
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
 <!-- Include JS -->
-<script src="js/index.js"></script>
-
 <script>
-  // if($( window ).width() < 992) {
-  //   $('.portrait').hide();
-  // }
+// Smooth Scroll on clicking nav items
+$('nav a').click(function () {
+  var $href = $(this).attr('href');
+  $('body').stop().animate({
+    scrollTop: $($href).offset().top
+  }, 1000);
+  return false;
+});
 </script>
 
 </body>

@@ -17,5 +17,5 @@ $('nav a').click(function () {
 });
 
 $( document ).ready() {
-
+  alert('hi')
 }
