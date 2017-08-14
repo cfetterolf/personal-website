@@ -1,6 +1,10 @@
 
 /*      GLOBALS       */
-var experience = {};
+var experience = {'Fours iOS App': "",
+                  'Booz Allen Hamilton': "",
+                  'ACG Research': "",
+                  'Medivation Inc.': ""};
+
 
 
 

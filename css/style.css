@@ -139,6 +139,16 @@ footer {
     .portrait {
         display: none !important;
     }
+    .fours-pics {
+      display: none !important;
+    }
+}
+
+@media screen and (max-width: 980px) {
+    .booz-icons {
+        display: none !important;
+    }
+
 }
 
 .vert-wrapper {
@@ -163,6 +173,22 @@ footer {
   font-style: italic;
 }
 
+.tag {
+  font-family: 'Raleway', sans-serif;
+  color: #a6a6a6;
+  font-size: 13px;
+  font-style: italic;
+  padding-top: 10px;
+}
+
+.dim {
+  color: #939393;
+}
+
+.tech {
+  color: #606060;
+}
+
 .time {
   font-family: 'Raleway', sans-serif;
   color: #a6a6a6;
@@ -177,6 +203,21 @@ footer {
 
 .card-block p {
   margin-top: 0px !important;
+}
+
+.news-sc {
+  border-radius: 20px;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+}
+
+.fours-sc {
+  border-radius: 33px;
+  box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+}
+
+.mild-link {
+  cursor: pointer;
+  color: #279bbe;
 }
 
 

@@ -87,12 +87,12 @@
         <hr style="margin-left: 0px; width: 250px; margin-top: 5px;"/>
         <div class="row margin-top" id="aboutMeText">
           <div class="col-md-4" style=""><p>
-              Hey, I'm Chris Fetterolf.  I study Computer Science and Mathematics at Middlebury College
+              Hey, I'm Chris Fetterolf.  I study Computer Science and Mathematics at <a class="hover-click mild-link"href="http://www.middlebury.edu/" target="_blank">Middlebury College</a>
               in the scenic Green Mountains of Vermont.  I love software development because it allows me to
               bring my interests, passions, and creativity to life.  The entire development process - taking an
               idea and coding it into existence - is immensely rewarding to me.</p><p>
 
-              I grew up in the San Francisco Bay Area, and had ample time outside of school
+              I grew up in Oakland, CA, and had ample time outside of school
               to pursue extracurricular interests that sparked lifelong hobbies.  My passions for surfing, skiing,
               mountain biking, singing, gaming, and basketball were all born in the East Bay.</p>
 
@@ -131,13 +131,74 @@
                 </div> <!-- ./card-header -->
                 <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
                   <div class="card-block">
-                    <h6 class="title">Software Engineer Intern <span class="location">Annapolis JCT, MD</span></h6>
-                    <p>
-                      During my time at Booz Allen
+                    <h6 class="title">Software Engineering Intern <span class="location">Annapolis JCT, MD</span></h6>
+                    <hr style="width: 100%;" />
+                    <p class="">
+                      This past summer I interned for Booz Allen Hamilton's Cyber branch based in Annapolis Junction, MD.
+                      I was a member of a team of six engineering interns, and over the course of the 10 week intership we developed
+                      a Chrome extension to detect fake news using machine learning.  We were also <a style="color: #279bbe;" class="hover-click" href="http://www.wusa9.com/news/local/dc/dc-interns-create-tool-to-fight-fake-news/461523789" target="_blank">featured on the news</a>!
 
                     </p>
+                    <p class="">
+                      I contributed to various parts of our system as the summer progressed.  I designed the UI using JavaScript and HTML/CSS,
+                      wrote a web scraper in NodeJS, and developed several mertics in Java that served as the backbone of our analytic engine.
+                      Additionally, I led many team discussions that paved the way for any subsequent technical work.
+                    </p>
+                    <p class="">
+                      Our summer concluded with a formal presentation to Booz Allen senior leadership.  This presentation was part of an internal competition
+                      know as the Summer Games, and our team was awarded 1st place overall out of the 17 teams and 80+ interns competing.
+                      This summer taught me both the foundations of software development and essential team collaboration skills.  Our team's ability
+                      to work together allowed the whole to surpass the sum of its parts, and I believe is what propelled us to our 1st place finish.
+                    </p>
+                    <hr style="width: 100%;" />
+                    <p><strong style="color: #606060;">Technologies Used:</strong></p>
+                    <p class="indent tech"><span class="" style="font-style: italic; margin-right: 20px;">
+                      Front-end:</span>
+                      HTML5 & CSS3 <span class="dim">(Bootstrap)</span>, JavaScript <span class="dim">(jQuery, AngularJS)</span>
+                    </p>
+                    <p class="indent tech"><span class="" style="font-style: italic; margin-right: 20px;">
+                      Middleware:</span>
+                      NodeJS/ExpressJS <span class="dim">(MongoDB)</span>
+                    </p>
+                    <p class="indent tech"><span class="" style="font-style: italic; margin-right: 20px;">
+                      Back-end:</span>
+                      Java <span class="dim">(Maven, Springboot)</span>, Python, Elastic Stack
+                    </p>
+                    <img class="booz-icons" src="img/booz_icons.png" style="float: right; width: 250px; margin-top: -170px; margin-right: 0;" />
+
+                    <hr style="width: 100%;" />
+                    <p><strong style="color: #606060;">In the News:</strong></p>
+                    <p><a style="color: #279bbe;" class="hover-click" href="http://www.wusa9.com/news/local/dc/dc-interns-create-tool-to-fight-fake-news/461523789" target="_blank">DC interns create tool to fight fake news - WUSA9 News (Washington D.C.)</a></p>
+                    <div class="indent">
+                    <div class="row indent" style="padding: 10px;">
+                      <div class="col-md-5">
+                        <img src="img/news3.png" class="news-sc" style="width: 100%;" />
+                      </div>
+                      <div class="col-md-7" style="margin-top: 10px;">
+                        <p>
+                          Our team was featured on CBS News' local D.C. station.  We spent the day in downtown Washington D.C., and I was one of the two
+                          interns that represented our team on TV!  It was beyond cool to see both the UI and metrics I had designed be featured on such a public scale.
+                        </p>
+                      </div>
+                    </div>
+
+                    <div class="row indent" style="padding: 10px;">
+                      <div class="col-md-5">
+                        <img src="img/news4.png" class="news-sc" style="width: 100%;" />
+                      </div>
+                      <div class="col-md-7" style="margin-top: 10px;">
+                        <p>
+                          How exactly does our tool detect fake news?  When the user loads an article in their webpage,
+                          our extension runs in the background.  It extracts relevant information from the article, then sends
+                          it to our processing server for analysis.  We run the article through a series of mertics, then return
+                          their corresonding scores to the browser, where a final score is computed and displayed to the user.
+                        </p>
+                      </div>
+                    </div>
+
                   </div>
                 </div>
+              </div>
               </div>
 
               <!-- Fours iOS App -->
@@ -156,27 +217,51 @@
                     <hr style="width: 100%;" />
                     <p>
                       In my free time at school I created Fours, a free KenKen puzzle generator <a class="hover-click" href="https://itunes.apple.com/us/app/fours-unlimited-kenken-puzzles!/id1181549788?mt=8" target="_blank" style="color: #279bbe;">available on the App Store.</a>
-                      The game allows you to play as many puzzles as you want, generating over 600,000 possible board combinations.</p><p>
+                      I loved playing KenKen puzzles (like math Sudokus) in the New York Times, but wanted to solve more than just one a day.
+                      So, I embarked on my journey that led to Fours, which now allows me to play as many puzzles as I want - the app can generate over 600,000 possible board combinations!</p><p>
 
                       I began the development process knowing nothing about iOS development, and the path from concept to published product taught me
-                      invaluable lessons about both software design and myself.  I began the project by researching and inventing my own
+                      invaluable lessons about both software design and myself.  I began the project by inventing my own
                       method of generating unique puzzle boards, then implemented my algorithm in Swift as the core component of the app.
                       I then built additonal features to help the app
                       become more than just a puzzle generator - features such as challenge modes, global leaderboards, and a step-by-step tutorial that
                       helps teach newcomers how to play.</p><p>
 
-                      Throughout this process I've learned that nothing motivates me more
-                      than a captivating project.  Even though I created Fours simply as a way to play more KenKen puzzles, I hope it
+                      Throughout this process, I've seen firsthand how far a little bit of passion can go.
+                      Even though I created Fours simply as a way to play more KenKen puzzles, I hope it
                       can now become a platform to share my passion for KenKens with others.</p>
 
-                      <hr style="width: 100%;" />
-
-                      <p><strong>Technologies Used:</strong></p>
-                      <p class="indent">Swift 3 (Xcode), Google Firebase (NoSQL)</p>
-                      <p class="indent">HTML5 & CSS3 (Bootstrap), JavaScript (jQuery), PHP</p>
-
-                      <hr style="width: 100%;" />
                       <p>For more information, check out <a href="http://www.getfoursapp.com" target="_blank" style="color: #279bbe;">www.getfoursapp.com</a></p>
+
+                      <hr style="width: 100%;" />
+
+                      <p><strong style="color: #606060;">Technologies Used:</strong></p>
+                      <p class="indent tech"><span style="font-style: italic; margin-right: 20px;">iOS:</span>Swift 3 <span class="dim">(Xcode),</span> Google Firebase <span class="dim">(NoSQL)</span></p>
+                      <p class="indent tech"><span style="font-style: italic; margin-right: 20px;">Web:</span>HTML5 & CSS3 <span class="dim">(Bootstrap),</span> JavaScript <span class="dim">(jQuery),</span> PHP</p>
+                      <img class="booz-icons" src="img/fours_icons.png" style="float: right; width: 250px; margin-top: -125px; margin-right: 0;" />
+
+
+                      <hr style="width: 100%;" class="fours-pics" />
+
+                      <div class="row fours-pics" style="margin-top: 30px;">
+                          <div class="col-md-3 col-sm-6" style="text-align:center;">
+                              <img src="img/fours3.png" class="fours-sc" style="width: 100%;" />
+                              <p class="tag">Home Screen</p>
+                          </div>
+                          <div class="col-md-3 col-sm-6" style="text-align:center;">
+                              <img src="img/fours4.png" class="fours-sc" style="width: 100%;" />
+                              <p class="tag">Game Board</p>
+                          </div>
+                          <div class="col-md-3 col-sm-6" style="text-align:center;">
+                              <img src="img/fours2.png" class="fours-sc" style="width: 100%;" />
+                              <p class="tag">Interactive Tutorial</p>
+                          </div>
+                          <div class="col-md-3 col-sm-6" style="text-align:center;">
+                              <img src="img/fours1.png" class="fours-sc" style="width: 100%;" />
+                              <p class="tag">Global Leaderboard</p>
+                          </div>
+                      </div>
+
                   </div>
                 </div>
               </div>
@@ -208,12 +293,12 @@
                     <a class="collapsed no-underline" data-toggle="collapse" data-parent="#accordion" href="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
                       Medivation Inc.
                     </a>
-                    <span class="location">San Francisco, CA</span>
+                    <span class="time">Summer 2015</span>
                   </h5>
                 </div>
                 <div id="collapseFour" class="collapse" role="tabpanel" aria-labelledby="headingFour">
                   <div class="card-block">
-                    <h6 class="title">Software Engineer Intern</h6>
+                    <h6 class="title">Software Engineer Intern<span class="location">San Francisco, CA</span></h6>
                     <p>
                     Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.</p>
                   </div>
