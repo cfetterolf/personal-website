@@ -2,7 +2,7 @@
 h4,h5 {
   font-family: 'Zilla Slab', serif;
   /*font-family: 'Cormorant Garamond', serif;*/
-  font-weight: 400;
+  font-weight: 300;
   color: #636363;
 }
 
@@ -142,14 +142,27 @@ footer {
     .fours-pics {
       display: none !important;
     }
+    .midd-pics {
+      display: none !important;
+    }
 }
 
-@media screen and (max-width: 980px) {
+@media screen and (max-width: 920px) {
     .booz-icons {
         display: none !important;
     }
 
+    .tech-used {
+      width: 100% !important;
+    }
+
 }
+
+.calculated-width {
+    width: -webkit-calc(100% - 580px);
+    width:    -moz-calc(100% - 580px);
+    width:         calc(100% - 580px);
+}​
 
 .vert-wrapper {
     height: 100px;
@@ -220,10 +233,39 @@ footer {
   color: #279bbe;
 }
 
+.vert-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.center {
+  text-align: center;
+}
+
+.gpa-text {
+  display: inline-block; float: right; margin-top: 15px; opacity: 0.8;
+}
+
+.gpa {
+  display: inline-block; float: right; margin-left: 15px; margin-top: 15px; opacity: 0.6; font-style: italic;
+}
+
+.vertical-center {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+
 
 /* IDS */
 
 #pdfIcon {
   width: 50px;
-  opacity: 0.8;
+  opacity: 0.7;
+}
+
+#pdfIcon:hover {
+  opacity: 1.0;
 }
