@@ -8,6 +8,7 @@ h4,h5 {
 
 p {
   font-family: 'Raleway', sans-serif;
+  font-weight: 300;
   color: #777777;
 }
 
@@ -231,6 +232,15 @@ footer {
 .mild-link {
   cursor: pointer;
   color: #279bbe;
+}
+
+.header-link {
+  cursor: pointer;
+  color: inherit;
+}
+
+.header-link:hover {
+  text-decoration: none !important;
 }
 
 .vert-center {
