@@ -80,6 +80,10 @@ footer {
     margin-left: 20px;
 }
 
+.navbar-toggler {
+  border: none !important;
+}
+
 /* Bootstrap Accordian */
 .card,.card-header{
     background-color: transparent;
@@ -107,10 +111,22 @@ footer {
     color: #7caeff !important;
 }
 
-.navbar .navbar-nav > li > a.blue:hover, .navbar .navbar-nav > li > a.blue:focus {
-
-    color: #476aa3 !important;
+.facebook {
+  color: #3B5998 !important;
 }
+
+.github {
+  color: #999 !important;
+}
+
+.linkedin {
+  color: #0077b5 !important;
+}
+
+.navbar .navbar-nav > li > a.linkedin:hover, .navbar .navbar-nav > li > a.linkedin:focus {color: #00324d!important;}
+.navbar .navbar-nav > li > a.facebook:hover, .navbar .navbar-nav > li > a.facebook:focus {color: #24355c !important;}
+.navbar .navbar-nav > li > a.github:hover, .navbar .navbar-nav > li > a.github:focus {color: #595959 !important;}
+
 
 .no-underline {
     text-decoration: none !important;
