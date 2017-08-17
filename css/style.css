@@ -29,10 +29,16 @@ em {
 
 body {
     background-color: rgba(251,249,235, 1.0);
+    margin:0;
+    padding:0;
 }
 
 footer {
     background-color: transparent !important;
+}
+
+.container-fluid {
+  margin-left: 7%; margin-right: 7%
 }
 
 /* Config Bootstrap Navbar */
@@ -136,6 +142,14 @@ footer {
   /*border: 5px solid #fff2cc;*/
 }
 
+.midd-picture {
+  border-radius: 40px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.2);
+  width: 95%;
+  float: right;
+  margin-top: 15px;
+}
+
 @media screen and (max-width: 768px) {
     .portrait {
         display: none !important;
@@ -146,6 +160,10 @@ footer {
     .midd-pics {
       display: none !important;
     }
+
+    /*.container-fluid {
+      margin-left: auto; margin-right: 0
+    }*/
 }
 
 @media screen and (max-width: 920px) {
@@ -181,6 +199,7 @@ footer {
 
 .location {
   font-family: 'Raleway', sans-serif;
+  font-weight: 300;
   color: #a6a6a6;
   font-size: 13px;
   margin-left: 20px;
@@ -209,6 +228,15 @@ footer {
   font-size: 15px;
   margin-left: 20px;
   font-style: italic;
+}
+
+.thicker-hr {
+  border: none;
+  height: 2px;
+  /* Set the hr color */
+  color: #a6a6a6; /* old IE */
+  background-color: #a6a6a6; /* Modern Browsers */
+  opacity: 0.6;
 }
 
 .card-block.title {
@@ -262,9 +290,7 @@ footer {
 }
 
 .vertical-center {
-  position: relative;
-  top: 50%;
-  transform: translateY(-50%);
+  margin-top: 40px;
 }
 
 
