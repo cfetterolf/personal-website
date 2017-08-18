@@ -103,7 +103,7 @@ footer {
 }
 
 .semi-bold {
-    font-weight: 600;
+    font-weight: 500;
     color: #383838;
 }
 
@@ -116,7 +116,7 @@ footer {
 }
 
 .github {
-  color: #999 !important;
+  color: #595959 !important;
 }
 
 .linkedin {
@@ -125,7 +125,7 @@ footer {
 
 .navbar .navbar-nav > li > a.linkedin:hover, .navbar .navbar-nav > li > a.linkedin:focus {color: #00324d!important;}
 .navbar .navbar-nav > li > a.facebook:hover, .navbar .navbar-nav > li > a.facebook:focus {color: #24355c !important;}
-.navbar .navbar-nav > li > a.github:hover, .navbar .navbar-nav > li > a.github:focus {color: #595959 !important;}
+.navbar .navbar-nav > li > a.github:hover, .navbar .navbar-nav > li > a.github:focus {color: #333333 !important;}
 
 
 .no-underline {
