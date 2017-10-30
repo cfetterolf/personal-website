@@ -1,3 +1,4 @@
+
 // Smooth Scroll on clicking nav items
 $('nav a').click(function () {
   var $href = $(this).attr('href');
