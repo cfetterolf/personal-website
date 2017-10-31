@@ -2,7 +2,8 @@
 // Smooth Scroll on clicking nav items
 $('nav a').click(function () {
   var $href = $(this).attr('href');
-  $('body').stop().animate({
+  console.log($href);
+  $('html,body').stop().animate({
     scrollTop: $($href).offset().top - 30
   }, 1000);
   return false;
@@ -11,7 +12,8 @@ $('nav a').click(function () {
 // Smooth scroll on logo click
 $('footer a').click(function () {
   var $href = $(this).attr('href');
-  $('body').stop().animate({
+  console.log($href);
+  $('html,body').animate({
     scrollTop: $($href).offset().top - 30
   }, 1000);
   return false;
