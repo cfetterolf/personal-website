@@ -36,7 +36,6 @@
   <link rel="stylesheet" href="css/style.css">
 
   <link rel="icon" type="image/png" href="img/favicon.png">
-
 </head>
 <body>
 
@@ -50,10 +49,13 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item">
-            <a class="nav-link" href="#aboutMe">About</a>
+            <a class="nav-link" href="#experience">Experience</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#experience">Experience</a>
+            <a class="nav-link" href="#projects">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#education">Education</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="#resume">Resume</a>
@@ -110,7 +112,7 @@
               broadened my academic perspective throughout my time at college.</p>
           </div>
           <div class="col-md-4" id="portrait" style="background-color: transparent;">
-              <img src="img/portrait.jpg" style="width: 100%;" class="portrait"/>
+              <img src="img/portrait.jpg" style="width: 100%; max-width: 300px;" class="portrait"/>
           </div>
       </div> <!-- ./about me -->
 
@@ -134,7 +136,7 @@
                 </div> <!-- ./card-header -->
                 <div id="collapseOne" class="collapse" role="tabpanel" aria-labelledby="headingOne">
                   <div class="card-block">
-                    <h6 class="title">Software Engineering Intern <span class="location">Annapolis JCT, MD</span></h6>
+                    <h6 class="title">Software Engineering Intern <span class="location">Annapolis Junction, MD</span></h6>
                     <hr style="width: 100%;" />
                     <p>
                       This past summer, I interned for Booz Allen Hamilton's Cyber branch based in Annapolis Junction, MD.
@@ -227,7 +229,7 @@
                     <h6 class="title">Founder<span class="location">Middlebury, VT</span></h6>
                     <hr style="width: 100%;" />
                     <p>
-                      In my free time at school I created Fours, a free KenKen puzzle generator <a class="hover-click" href="https://itunes.apple.com/us/app/fours-unlimited-kenken-puzzles!/id1181549788?mt=8" target="_blank" style="color: #279bbe;">available on the App Store.</a>
+                      In my free time at school I created Fours, a free KenKen puzzle generator <a class="hover-click" href="http://www.getfoursapp.com" target="_blank" style="color: #279bbe;">published on the App Store.</a>
                       I loved playing KenKen puzzles (similar to math Sudokus) in the New York Times, but wanted to solve more than just one a day.
                       So, I embarked on my journey that led to Fours, which now allows me to play as many puzzles as I want - the app can generate <strong>over 600,000</strong> possible board combinations.</p><p>
 
@@ -296,7 +298,7 @@
                 </div>
                 <div id="collapseThree" class="collapse" role="tabpanel" aria-labelledby="headingThree">
                   <div class="card-block">
-                    <h6 class="title">Quantitative Analyst<span class="location">Lake Tahoe, CA</span></h6>
+                    <h6 class="title">Quantitative Analyst<span class="location">San Francisco, CA</span></h6>
                     <hr style="width: 100%;" />
                     <p>
                       In the summer of 2016 I worked for <a href="https://www.acgcc.com" target="_blank" style="color: #279bbe;">ACG Research</a>, a leading analyst firm in the telecommunications industry.
@@ -358,8 +360,76 @@
           </div> <!-- ./Accordian -->
       </div> <!-- ./Experience -->
 
+      <!-- Projects -->
+      <div class="row margin-top-big" style="padding-left: 15px;" id="projects"><h5 class="semi-bold">Projects</h5></div>
+      <hr style="margin-left: 0px; width: 250px; margin-top: 5px;"/>
+      <div class="row" style="margin-top: -15px">
+        <div class="col-12">
+          <div class="row margin-top portfolio-selections">
+
+            <!-- Endeavor -->
+            <div class="col-xs-6 col-md-6 col-lg-4 portfolio-item">
+              <div class="padded-item portfolio-shadow" id="endeavorDesc">
+                <div class="portfolio-item-body">
+                  <h3 class="portfolio-item-title" id="endeavorLogo">Endeavor</h3>
+                  <div class="img-wrapper">
+                    <img src="img/Endeavor/Discover.png" class="portfolio-thumbnail" />
+                  </div>
+                  <p>
+                    A web application that helps organize your next job hunt.  Built
+                    with <strong>React</strong>, <strong>Node.js</strong>, and <strong>Firebase</strong>.
+                  </p>
+                </div>
+                <div class="portfolio-item-footer footer-endeavor">
+                  <p><a class="btn btn-default" href="projects.html#endeavor" role="button">Read More &raquo;</a></p>
+                </div>
+              </div>
+            </div><!--/Endeavor -->
+
+            <!-- Flock -->
+            <div class="col-xs-6 col-md-6 col-lg-4 portfolio-item">
+              <div class="padded-item portfolio-shadow" id="flockDesc">
+                <div class="portfolio-item-body">
+                  <h3 class="portfolio-item-title" id="flockLogo">flock</h3>
+                  <div class="img-wrapper">
+                    <img src="img/Flock/Home.png" class="portfolio-thumbnail" />
+                  </div>
+                  <p>
+                    A carpooling service for college students.  Built
+                    with <strong>React</strong>, <strong>Node.js</strong>, and <strong>MongoDB</strong>.
+                  </p>
+                </div>
+                <div class="portfolio-item-footer footer-blue">
+                  <p><a class="btn btn-default" href="projects.html#flock" role="button">Read More &raquo;</a></p>
+                </div>
+              </div>
+            </div><!--/Flock -->
+
+            <!-- CS500 -->
+            <div class="col-xs-6 col-md-6 col-lg-4 portfolio-item">
+              <div class="padded-item portfolio-shadow" id="cs500Desc">
+                <div class="portfolio-item-body">
+                  <h3 class="portfolio-item-title" id="cs500Logo">Group Scheduler</h3>
+                  <div class="img-wrapper">
+                    <img src="img/CS500/Users.png" class="portfolio-thumbnail" />
+                  </div>
+                  <p>
+                    Finds an optimal schedule for groups algorithmically.  Built
+                    with <strong>Python</strong>, <strong>Django</strong>, and <strong>PostgreSQL</strong>.
+                  </p>
+                </div>
+                <div class="portfolio-item-footer footer-green">
+                  <p><a class="btn btn-default" href="projects.html#scheduler" role="button">Read More &raquo;</a></p>
+                </div>
+              </div>
+            </div><!--/CS500 -->
+          </div><!--/row-->
+        </div><!--/.col-->
+      </div><!-- ./Projects -->
+
+
       <!-- Education -->
-      <div class="row margin-top-big" style="padding-left: 15px;"><h5 class="semi-bold">Education</h5></div>
+      <div class="row margin-top-big" style="padding-left: 15px;" id="education"><h5 class="semi-bold">Education</h5></div>
       <hr style="margin-left: 0px; width: 250px; margin-top: 5px;"/>
       <div class="row">
         <div class="col-md-7 col-sm-12" style="margin-top: 10px;">
@@ -373,11 +443,11 @@
           <p class="time" style="margin-left: 0;">B.S. Computer Science, Mathematics</p>
           <!-- <hr style="width: 100%;" /> -->
           <p>
-            Middlebury College is a small liberal arts college located in Middlebury, VT, with a student body of roughly 2,500 undergraduates.  Middlebury was ranked the <strong>4th best</strong>
-            liberal arts college in the country according to U.S. News's <a href="https://www.usnews.com/best-colleges/rankings/national-liberal-arts-colleges" target="_blank" style="color: #279bbe;">official 2017 list</a>.
+            Middlebury College is a small liberal arts college located in Middlebury, VT, with a student body of roughly 2,500 undergraduates.  Middlebury was ranked as the <strong>6th best</strong>
+            liberal arts college in the country according to U.S. News's <a href="https://www.usnews.com/best-colleges/rankings/national-liberal-arts-colleges" target="_blank" style="color: #279bbe;">official 2018 list</a>.
           <p>
             At Middlebury, I play intramural basketball throughout all three seasons, compete regionally with our
-            competitive programming team, and participate in our Computer Science club, Middle Endian.  I also love to spend time skiing, snowboarding, and hiking in the surrounding area
+            competitive programming team, tutor early and mid-level CS students, and participate in our Computer Science club, Middle Endian.  I also love to spend time skiing, snowboarding, and hiking in the surrounding area
             with friends.
           </p>
         </div>
@@ -403,7 +473,7 @@
       <!-- Last Updated -->
       <div class="row margin-top-big" style="padding-left: 15px;"><h5 class="semi-bold">Last Updated</h5></div>
       <hr style="margin-left: 0px; width: 250px; margin-top: 5px;"/>
-      <p style="margin-top: 25px;">February 14, 2018</p>
+      <p style="margin-top: 25px;">May 24, 2018</p>
 
       </div> <!-- ./container -->
     </div>
@@ -417,7 +487,7 @@
             <div style="width: 250px; margin: 0 auto; margin-top: -50px; background-color: rgba(251,249,235, 1.0);">
               <a href="#navbarSupportedContent"><img src="img/logo_full.png" style="width: 50px; height: 50px;" /></a>
               <p class="time" style="margin: 0px; auto; font-size: 90%;">
-                Built by Chris Fetterolf, 2017
+                Built by Chris Fetterolf, 2018
               </p>
             </div>
         </div>
@@ -428,7 +498,22 @@
  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
-<script src="js/smoothScroll.js"></script>
+ <!-- Handles Project click event -->
+ <script>
+   $( "#endeavorDesc" ).click(function() {
+     window.location.href='projects.html#endeavor';
+   });
+
+   $( "#flockDesc" ).click(function() {
+     window.location.href='projects.html#flock';
+   });
+
+   $( "#cs500Desc" ).click(function() {
+     window.location.href='projects.html#scheduler';
+   });
+ </script>
+
+ <script src="js/smoothScroll.js"></script>
 
 </body>
 </html>
